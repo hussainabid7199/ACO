@@ -1,0 +1,77 @@
+
+
+
+
+**********************************************
+.serviceDis{
+    width: 100%;
+}
+
+.spac-top{
+    margin-top: 15% !important;
+}
+@media(max-width:780px){
+    .spac-top{
+        margin-top: 10%;
+    }
+}
+
+.serviceCon{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+@media(max-width:780px){
+    .serviceCon{
+        flex-direction: column;
+    }
+}
+
+.serviceCont,
+.service-inner{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-basis: 100%;
+    justify-content: center;
+}
+@media(max-width:780px){
+    .serviceCont,
+    .service-inner{
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+.service-inner ul{
+    text-align: center;
+    padding: 0%;
+    margin: 20px;
+}
+
+ul > li{
+    margin-top: 1px;
+}
+
+ul > button{
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    padding: 2px 15px;
+    margin-top: 20px;
+}
+ul > button:hover{
+    background-color: rgb(60, 255, 0);
+    border: 2px solid rgb(0, 255, 34);
+    border-radius: 15px;
+    padding: 2px 15px;
+    margin-top: 20px;
+}
+
+
+
+
+/* service discription */
